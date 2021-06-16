@@ -2,7 +2,7 @@ const bcrypt = require('bcrypt');
 const maskemail = require('maskemail')
 const jwt = require('jsonwebtoken');
 const User = require('../models/user');
-// const passwordValidator = require('../models/password');
+
 require('dotenv').config();
 
 exports.signup = (req, res, next) => {
